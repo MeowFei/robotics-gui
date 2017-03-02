@@ -1,0 +1,10 @@
+.wrapper{
+    padding: 2vh;
+}
+
+.content{
+    background-color: rgba(0, 0, 0, 0.03);
+    height: 31vh;
+    border-radius: 10px;
+    text-align: center;
+}

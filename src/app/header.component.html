@@ -1,0 +1,20 @@
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-collapse collapse">
+      <ul class= "nav navbar-nav navbar-left">
+        <li routerLink={{item}} 
+            *ngFor="let item of navBar"
+            routerLinkActive="active-link">
+          <a> {{item}} </a>
+        </li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li class="basic-info">
+            <a> {{time}} </a>
+        </li>
+        <li class="basic-info">
+            <a> {{battery}} </a>
+        </li>
+      </ul>
+  </div>
+</nav>
